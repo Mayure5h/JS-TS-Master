@@ -1,3 +1,5 @@
+//Reference: https://www.youtube.com/watch?v=DHvZLI7Db8E
+
 //Below function is a basic promise function syntax
 
 let p = new Promise((resolve, reject) => {
@@ -14,6 +16,8 @@ p.then((message) => {
 }).catch((message) => {
     console.log("This is in the catch " + message)
 })
+
+//*****************************************************************
 
 //Another example similar to callback 
 
